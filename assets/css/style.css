@@ -1,0 +1,27 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  /*Full width and height background image*/
+  background: url('../images/Logo_HCS_noText.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section-spacing {
+  margin-bottom: 20%;
+}
+
+.jumbotron {
+  margin-top: 28%;
+  background-color: transparent;
+}
+
+.bright-font {
+  color: white;
+}
+
+.about-gradient {
+  background: rgb(55, 0, 0);
+  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
+}
