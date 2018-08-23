@@ -25,3 +25,8 @@ body {
   background: rgb(55, 0, 0);
   background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
 }
+
+.no-bg-color {
+  background-color: white;
+  color: black;
+}
