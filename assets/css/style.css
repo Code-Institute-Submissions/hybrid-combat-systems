@@ -27,6 +27,16 @@ body {
 }
 
 .no-bg-color {
-  background-color: white;
+  background-color: transparent;
   color: black;
+}
+
+img {
+  height: 475px;
+  margin: 10px;
+}
+
+.small-image-box {
+  width: 33%;
+  margin-bottom: 5px;
 }
