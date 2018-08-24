@@ -17,6 +17,12 @@ body {
   background-color: transparent;
 }
 
+.jumbotron h1 {
+  color: red;
+  font-size: 6em;
+  text-shadow: -3px 4px 2px rgba(197, 181, 135, 0.49);
+}
+
 .bright-font {
   color: white;
 }
@@ -43,4 +49,19 @@ img {
 .small-image-box {
   width: 33%;
   margin-bottom: 5px;
+}
+
+
+/*-----------------------------------------------------------------Animations*/
+.jumbotron{
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
