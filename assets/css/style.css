@@ -35,7 +35,8 @@ body {
 
 .about-gradient {
   background: rgb(55, 0, 0);
-  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
+  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, 
+              rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
 }
 
 .row.small-spacer {
@@ -57,8 +58,27 @@ img {
   margin-bottom: 5px;
 }
 
+/*----------------------------------------------------------------------Navbar*/
+.navbar {
+  background: rgb(55, 0, 0);
+  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, 
+              rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
+}
 
-/*-----------------------------------------------------------------Animations*/
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffd800;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  font-weight: 800;
+}
+
+/*------------------------------------------------------------------Animations*/
 .jumbotron{
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
