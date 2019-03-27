@@ -10,6 +10,7 @@ body {
 
 .section-spacing {
   margin-bottom: 5%;
+  margin-top: 2%;
 }
 
 .jumbotron {
@@ -56,6 +57,20 @@ img {
 .small-image-box {
   width: 33%;
   margin-bottom: 5px;
+}
+
+/*---------------------------------------------------------------Class Section*/
+.class-heading {
+  font-size: 20px;
+  color: #ffd800;
+  font-weight: 700;
+}
+
+/*-----------------------------------------------------------------About Icons*/
+.large-icon {
+  font-size: 80px;
+  text-align: center;
+  color: #ffd800;
 }
 
 /*----------------------------------------------------------------------Navbar*/
