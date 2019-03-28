@@ -66,6 +66,23 @@ img {
   font-weight: 700;
 }
 
+.social-icons>i {
+  font-size: 60px;
+  color: #fff;
+  margin-right: 5%;
+}
+
+.social-icons {
+  font-size: 30px;
+  color: #fff;
+}
+
+.social-icons:hover,
+.social-icons>i:hover {
+  color: #ffd800;
+  text-decoration: none;
+}
+
 /*-----------------------------------------------------------------About Icons*/
 .large-icon {
   font-size: 80px;
