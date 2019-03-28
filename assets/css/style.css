@@ -109,6 +109,27 @@ img:hover {
 }
 
 /*----------------------------------------------------------------------Navbar*/
+
+.footer-wrapper {
+  padding-top: 30px;
+}
+.footer-heading {
+  font-size: 20px;
+}
+
+.footer-icons {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.footer-icons:hover {
+  color: #ffd800;
+}
+
+/*----------------------------------------------------------------------Navbar*/
 .navbar {
   background: rgb(55, 0, 0);
   background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, 
