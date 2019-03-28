@@ -49,14 +49,17 @@ body {
   color: black;
 }
 
+
+/*----------------------------------------------------------------------Images*/
+
 img {
   height: 475px;
-  margin: 10px;
+  margin-bottom: 10px;
+  border: 6px solid #ffd800;
 }
 
-.small-image-box {
-  width: 33%;
-  margin-bottom: 5px;
+img:hover {
+  border: 12px solid #370000;
 }
 
 /*---------------------------------------------------------------Class Section*/
