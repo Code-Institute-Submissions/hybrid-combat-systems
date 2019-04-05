@@ -35,9 +35,7 @@ body {
 }
 
 .about-gradient {
-  background: rgb(55, 0, 0);
-  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, 
-              rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
+  background-color: #000;
 }
 
 .row.small-spacer {
@@ -49,13 +47,16 @@ body {
   color: black;
 }
 
+.dark-heading {
+  color: #d90000;
+  font-size: 20px;
+}
 
 /*----------------------------------------------------------------------Images*/
 
 img {
   height: 475px;
   margin-bottom: 10px;
-  border: 6px solid #ffd800;
 }
 
 img:hover {
@@ -64,9 +65,9 @@ img:hover {
 
 /*---------------------------------------------------------------Class Section*/
 .class-heading {
-  font-size: 20px;
-  color: #ffd800;
-  font-weight: 700;
+  font-size: 19px;
+  color: #d90000;
+  font-weight: 800;
 }
 
 .social-icons>i {
@@ -82,22 +83,22 @@ img:hover {
 
 .social-icons:hover,
 .social-icons>i:hover {
-  color: #ffd800;
+  color: #d90000;
   text-decoration: none;
 }
 
 /*------------------------------------------------------------------------Form*/
 .btn-success {
-  color: #370000;
+  color: #fff;
   font-size: 14px;
-  background-color: #ffd800;
+  background-color: #d90000;
   border-color: #fff;
   width: 90px;
 }
 
 .btn-success:hover {
-  color: #ffd800;
-  background-color: #370000;
+  color: #d90000;
+  background-color: #fff;
   border-color: #fff;
 }
 
@@ -105,16 +106,16 @@ img:hover {
 .large-icon {
   font-size: 80px;
   text-align: center;
-  color: #ffd800;
+  color: #d90000;
 }
 
-/*----------------------------------------------------------------------Navbar*/
+/*----------------------------------------------------------------------Footer*/
 
 .footer-wrapper {
   padding-top: 30px;
 }
 .footer-heading {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .footer-icons {
@@ -126,14 +127,12 @@ img:hover {
 }
 
 .footer-icons:hover {
-  color: #ffd800;
+  color: #d90000;
 }
 
 /*----------------------------------------------------------------------Navbar*/
 .navbar {
-  background: rgb(55, 0, 0);
-  background: linear-gradient(90deg, rgba(55, 0, 0, 0.9699230033810399) 0%, 
-              rgba(134, 9, 0, 1) 45%, rgba(106, 10, 0, 0.7234244039412641) 100%);
+  background-color: #000;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -141,7 +140,7 @@ img:hover {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #ffd800;
+  color: #d90000;
 }
 
 .navbar-default .navbar-brand {
