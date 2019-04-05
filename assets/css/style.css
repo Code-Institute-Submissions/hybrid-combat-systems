@@ -15,31 +15,36 @@ body {
 }
 
 .jumbotron {
-  margin-top: 28%;
+  margin-top: 20%;
   background-color: transparent;
 }
 
 .jumbotron h1 {
-  color: #cc3333;
+  color: #d90000;
   font-size: 6em;
-  text-shadow: -3px 4px 2px rgba(197, 181, 135, 0.49);
+  text-align: center;
+  font-weight: bold;
 }
 
 .jumbotron p {
-  color: #cc3333;
+  color: #d90000;
   font-size: 4em;
-  margin-left: 140px;
+  text-align: center;
 }
 
 .logo-holder {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background: url('/assets/images/gate-01.svg.svg');
   border-radius: 50%;
 }
 
 .bright-font {
-  color: white;
+  color: #fff;
+}
+
+.dark-font {
+  color: #000;
 }
 
 .about-gradient {
@@ -56,8 +61,10 @@ body {
 }
 
 .dark-heading {
-  color: #d90000;
-  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 23px;
+  margin-top: 50px;
 }
 
 .light-heading {
@@ -77,8 +84,15 @@ img:hover {
 }
 
 /*---------------------------------------------------------------Class Section*/
+.graffiti-img {
+  background-color: #fff;
+  padding: 100px 0px 100px 0px;
+  background: url(/assets/images/graffiti.png);
+  background-size: cover;
+}
+
 .class-heading {
-  font-size: 19px;
+  font-size: 21px;
   color: #d90000;
   font-weight: 800;
 }
@@ -117,9 +131,15 @@ img:hover {
 
 /*-----------------------------------------------------------------About Icons*/
 .large-icon {
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   color: #d90000;
+}
+
+.red-circle {
+  border: 3px solid #d90000;
+  border-radius: 50%;
+  padding: 10px 20px 10px 20px;
 }
 
 /*----------------------------------------------------------------------Footer*/
