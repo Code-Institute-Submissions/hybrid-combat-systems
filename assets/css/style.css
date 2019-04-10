@@ -1,7 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   /*Full width and height background image*/
-  background: url('/assets/images/hero.png') no-repeat center center fixed;
+  background: url('../images/hero.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,7 +35,7 @@ body {
 .logo-holder {
   height: 200px;
   width: 200px;
-  background: url('/assets/images/gate-01.svg.svg');
+  background: url('../images/gate-01.svg.svg');
   border-radius: 50%;
 }
 
@@ -88,7 +88,7 @@ img:hover {
 .graffiti-img {
   background-color: #fff;
   padding: 50px 0px 100px 0px;
-  background: url(/assets/images/graffiti.png);
+  background: url(../images/graffiti.png);
   background-size: cover;
   text-align: center;
 }
