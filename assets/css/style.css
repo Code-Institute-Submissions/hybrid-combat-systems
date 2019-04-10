@@ -9,6 +9,10 @@ body {
   margin-top: 80px;
 }
 
+.containter, .container-fluid, .container-wrapper, .row { 
+  margin: 0;  padding: 0; 
+}
+
 .section-spacing {
   margin-bottom: 5%;
   margin-top: 2%;
