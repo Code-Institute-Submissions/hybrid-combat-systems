@@ -83,6 +83,12 @@ img:hover {
   border: 12px solid #370000;
 }
 
+iframe {
+  border: none;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 10px;
+}
 /*---------------------------------------------------------------Class Section*/
 
 .graffiti-img {
