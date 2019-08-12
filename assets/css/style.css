@@ -134,9 +134,9 @@ body {
 
 /*----------------------------------------------------------------------Images*/
 
-img {
-  height: 475px;
-  margin-bottom: 10px;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 img:hover {
