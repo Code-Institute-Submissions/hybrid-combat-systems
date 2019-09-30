@@ -118,6 +118,7 @@ body {
   font-size: .8em;
   padding: 0;
   margin: 0;
+  color: #d90000;
 }
 
 .timeline-item::after {
@@ -129,7 +130,7 @@ body {
   left: -6px;
   border-radius: 12px;
   content: '';
-  background: #fafafa;
+  background: #d90000;
 }
 
 /*----------------------------------------------------------------------Images*/
