@@ -214,6 +214,35 @@ iframe {
   padding-right: 0;
 }
 
+/*------------------------------------------------------------------Instructors*/
+#instructors {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: solid 2px #d90000;
+  margin-top: 20px;
+}
+
+.headshot:hover {
+  /* overide img hover border effect */
+  border: solid 2px #d90000;
+}
+
+.instructor-heading {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.instructor-title {
+  color: #fff;
+  font-style: italic;
+}
+
 /*------------------------------------------------------------------------Form*/
 .btn-success {
   color: #fff;
