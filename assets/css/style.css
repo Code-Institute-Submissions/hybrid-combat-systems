@@ -243,6 +243,13 @@ iframe {
   font-style: italic;
 }
 
+.instructor-bio {
+  font-size: 1.2em;
+  color: #fff;
+  text-align: left;
+  margin-top: 1.2em;
+}
+
 /*------------------------------------------------------------------------Form*/
 .btn-success {
   color: #fff;
