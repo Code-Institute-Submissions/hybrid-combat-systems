@@ -248,7 +248,7 @@ iframe {
   font-size: 1.2em;
   color: #fff;
   text-align: left;
-  margin-top: 1.2em;
+  margin-top: 1.7em;
 }
 
 /*------------------------------------------------------------------------Form*/
@@ -287,11 +287,11 @@ iframe {
   margin-top: 20px;
 }
 
-.red-circle {
+/* .red-circle {
   border: 3px solid #d90000;
   border-radius: 50%;
   padding: 10px 20px 10px 20px;
-}
+} */
 
 /*----------------------------------------------------------------------Footer*/
 
