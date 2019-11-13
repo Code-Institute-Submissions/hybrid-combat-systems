@@ -267,8 +267,17 @@ iframe {
 }
 
 .message-alignment {
-  margin-top: 7.3em;
+  margin-top: 0;
 }
+
+/*add top margin on desktop or tablet*/
+@media only screen and (min-width: 600px) {
+  .message-alignment {
+    margin-top: 7.3em;
+  }
+}
+
+
 
 /*-----------------------------------------------------------------About Icons*/
 .large-icon {
