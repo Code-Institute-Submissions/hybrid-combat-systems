@@ -138,10 +138,12 @@ body {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin-bottom: 8%;
+  border: 1px solid #d90000;
 }
 
 img:hover {
-  border: 12px solid #370000;
+  border: none;
 }
 
 iframe {
