@@ -320,6 +320,14 @@ iframe {
   color: #d90000;
 }
 
+/* overide bootstrap */
+a, 
+a:active, 
+a:visited {
+  text-decoration: none;
+  color: #FFF;
+}
+
 /*----------------------------------------------------------------------Navbar*/
 .navbar {
   background-color: #000;
