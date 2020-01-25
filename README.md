@@ -34,6 +34,7 @@ Contact form (back end)
 * Fancybox
 * FontAwesome
 * git
+* Markdown add
 
 ## Testing
 This project has primarily been tested using google developer tools. 
@@ -43,6 +44,13 @@ Manual testing has been carried out by viewing the site on various different dev
 
 ## Deployment
 This site has been deployed using github pages and can be viewed [here](https://iandoyle01.github.io/hybrid-combat-systems/)
+To deploy to github pages: 
+* all code is pushed to a git repo 
+* navigate to the repo 
+* click settings
+* scroll down to the github pages section
+* choose the branch you want to deploy
+    * This step publishes the branch and provides you a url.
 
 For a local copy:
 Navigate to the [repo](https://github.com/IanDoyle01/hybrid-combat-systems)
