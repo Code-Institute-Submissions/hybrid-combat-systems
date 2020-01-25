@@ -36,18 +36,17 @@ Contact form (back end)
 *git
 
 ## Testing
+This project has primarily been tested using google developer tools. 
+It has also been validated using the [W3C Markup Validation Service](https://validator.w3.org/) and the [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/)
+
+Manual testing has been carried out by viewing the site on various different devices and browsers, includuing iphone, ipad, android tablets, single and multiple scren display laptops and pcs.
 
 ## Deployment
-This site has been deployed using guthub pages and can be viewed [here](https://iandoyle01.github.io/hybrid-combat-systems/)
+This site has been deployed using github pages and can be viewed [here](https://iandoyle01.github.io/hybrid-combat-systems/)
 
-For a local copy, fork this repo.
-
-## Credits
-
-### Content
-
+For a local copy:
+Navigate to the [repo](https://github.com/IanDoyle01/hybrid-combat-systems)
+Click the Clone or download button and download a .zip file
 
 ### Media
 All images have been sourced from the HCS facebook group with permission from the chief instructor. These images have been sourced for demonstration puurposes only and should not be reproduced without express permission of HCS.
-
-### Acknowledgements
