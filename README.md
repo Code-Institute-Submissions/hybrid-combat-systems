@@ -34,7 +34,7 @@ Contact form (back end)
 * Fancybox
 * FontAwesome
 * git
-* Markdown add
+* Markdown
 
 ## Testing
 This project has primarily been tested using google developer tools. 
