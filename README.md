@@ -28,12 +28,12 @@ This site features:
 Contact form (back end)
 
 ## Technologies Used
-*HTML 5
-*CSS 3
-*Bootstrap
-*Fancybox
-*FontAwesome
-*git
+* HTML 5
+* CSS 3
+* Bootstrap
+* Fancybox
+* FontAwesome
+* git
 
 ## Testing
 This project has primarily been tested using google developer tools. 
